@@ -1,4 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <article title="test">
-
+    test
+    <text>
+        test <italic>test</italic> <bold>text</bold> test <tex>\cfrac{a^{25}}{a^{16}}</tex> test test <math>a^(25)/a^(16)*(a^(10))+10</math> test
+    </text>
+    <tex>
+        \frac{a^{25}}{a^{16}} = a^{25 - 16} = a^9
+    </tex>
+    <tabs>
+        <tab>
+            <text>test <italic>test</italic> <bold>text</bold> test</text>
+            <tex>\frac{a^{25}}{a^{16}} = a^{25 - 16} = a^9</tex>
+        </tab>
+        <tab>
+            <tex>\frac{a^{25}}{a^{16}} = a^{25 - 16} = a^9</tex>
+            <text>test <italic>test</italic> <bold>text</bold> test</text>
+        </tab>
+    </tabs>
+    <spoiler>
+        <text>test <italic>test</italic> <bold>text</bold> test</text>
+        <tex>\frac{a^{25}}{a^{16}} = a^{25 - 16} = a^9</tex>
+    </spoiler>
+    <colored>
+        <text>test <italic>test</italic> <bold>text</bold> test</text>
+        <tex>\frac{a^{25}}{a^{16}} = a^{25 - 16} = a^9</tex>
+    </colored>
+    <code lang="c++" src="main.cpp"/>
 </article>
