@@ -1,0 +1,29 @@
+{
+  "algebraTheory": {
+    "title": "algebraTheory",
+    "color": "green",
+    "articles": {
+      "test": "test",
+      "test0": "test 0"
+    },
+    "ion-icon": "calculator"
+  },
+  "algebraProblems": {
+    "title": "algebraProblems",
+    "color": "green",
+    "articles": {
+      "test1": "test 1",
+      "test2": "test 2"
+    },
+    "ion-icon": "calculator"
+  },
+  "geometryTheory": {
+    "title": "geometryTheory",
+    "color": "green",
+    "articles": {
+      "test3": "test 3",
+      "test4": "test 4"
+    },
+    "ion-icon": "calculator"
+  }
+}
