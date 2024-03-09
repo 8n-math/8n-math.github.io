@@ -2,17 +2,17 @@
 <article title="test">
     test
     <text>
-        test <italic>test</italic> <bold>text</bold> test <tex>\cfrac{a^{25}}{a^{16}}</tex> test test <math>a^(25)/a^(16)*(a^(10))+10</math> test
+        test <italic>test</italic> <bold>text</bold> test <tex>\cfrac{a^{25}}{a^{16}}</tex> <code>test</code> test <math>a^(25)/a^(16)*(a^(10))+10</math> test
     </text>
     <tex>
         \frac{a^{25}}{a^{16}} = a^{25 - 16} = a^9
     </tex>
     <tabs>
-        <tab>
+        <tab name="000000000000000">
             <text>test <italic>test</italic> <bold>text</bold> test</text>
             <tex>\frac{a^{25}}{a^{16}} = a^{25 - 16} = a^9</tex>
         </tab>
-        <tab>
+        <tab name="1">
             <tex>\frac{a^{25}}{a^{16}} = a^{25 - 16} = a^9</tex>
             <text>test <italic>test</italic> <bold>text</bold> test</text>
         </tab>
