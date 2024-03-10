@@ -17,11 +17,11 @@
             <text>test <italic>test</italic> <bold>text</bold> test</text>
         </tab>
     </tabs>
-    <spoiler>
+    <spoiler title="test">
         <text>test <italic>test</italic> <bold>text</bold> test</text>
         <tex>\frac{a^{25}}{a^{16}} = a^{25 - 16} = a^9</tex>
     </spoiler>
-    <colored>
+    <colored color="green">
         <text>test <italic>test</italic> <bold>text</bold> test</text>
         <tex>\frac{a^{25}}{a^{16}} = a^{25 - 16} = a^9</tex>
     </colored>

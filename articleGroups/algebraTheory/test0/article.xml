@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <article title="test">
+    <tabs>
+        <tab name="000000000000000">
+            <text>test <italic>test</italic> <bold>text</bold> test</text>
+            <tex>\frac{a^{25}}{a^{16}} = a^{25 - 16} = a^9</tex>
+        </tab>
+        <tab name="1">
 
+        </tab>
+    </tabs>
 </article>
