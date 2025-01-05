@@ -25,5 +25,99 @@
         <text>test <italic>test</italic> <bold>text</bold> test</text>
         <tex>\frac{a^{25}}{a^{16}} = a^{25 - 16} = a^9</tex>
     </colored>
-    <code lang="c++" src="main.cpp"/>
+    <code lang="c++" src="main.cpp">
+#include &lt;iostream&gt;
+#include &lt;cstring&gt;
+#include &lt;vector&gt;
+#include &lt;algorithm&gt;
+#include &lt;map&gt;
+#include &lt;set&gt;
+#include &lt;cmath&gt;
+#include &lt;queue&gt;
+#include &lt;numeric&gt;
+#include &lt;stack&gt;
+#include &lt;fstream&gt;
+#include &lt;sstream&gt;
+#include &lt;bitset&gt;
+#include &lt;iomanip&gt;
+#include &lt;regex&gt;
+#include &lt;deque&gt;
+#include &lt;unordered_map&gt;
+#include &lt;cstdlib&gt;
+
+#define PairInt std::pair&lt;int, int&gt;
+#define Vector std::vector
+#define String std::string
+#define Map std::map
+#define Set std::set
+#define Pair std::pair
+#define LL long long
+#define LD long double
+
+using std::cin, std::cout, std::cerr;
+
+Vector&lt;Vector&lt;int&gt;&gt; graph;
+Vector&lt;int&gt; ans;
+Vector&lt;bool&gt; vec;
+
+bool dfs(int vertex, int color = 0) {
+    ans[vertex] = color;
+    if (color &amp;&amp; vec[vertex]) return false;
+    for (auto to : graph[vertex]) {
+        if (ans[to] == color) return false;
+        if (ans[to] != -1) continue;
+        ans[to] = (color + 1) % 2;
+        if (!dfs(to, (color + 1) % 2)) return false;
+    }
+    return true;
+}
+
+LL sum0 = 0, sum1 = 0;
+Vector&lt;bool&gt; used;
+
+void dfs0(int vertex, bool flag) {
+    used[vertex] = true;
+    if (flag) {
+        sum0++; sum1++;
+    } else if (ans[vertex]) {
+        sum1++;
+    } else {
+        sum0++;
+    }
+    for (auto to : graph[vertex]) {
+        if (used[to]) continue;
+        used[to] = true;
+        dfs0(to, flag);
+    }
+}
+
+signed main() {
+    std::ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+    cout.precision(100);
+    // std::ifstream in(&quot;../dist.in&quot;);
+    // std::ofstream out(&quot;../dist.out&quot;);
+    int n; cin &gt;&gt; n;
+    vec.resize(n);
+    for (int i = 0; i &lt; n; ++i) {
+        int elem; cin &gt;&gt; elem;
+        vec[i] = elem;
+    }
+    int m; cin &gt;&gt; m;
+    graph.resize(n);
+    for (int i = 0; i &lt; m; ++i) {
+        int a, b; cin &gt;&gt; a &gt;&gt; b;
+        graph[a - 1].push_back(b - 1);
+        graph[b - 1].push_back(a - 1);
+    }
+    ans.resize(n, -1);
+    used.resize(n);
+    for (int i = 0; i &lt; n; ++i) {
+        if (used[i] || !vec[i]) continue;
+        dfs0(i, !dfs(i));
+    }
+    cout &lt;&lt; std::max(sum0, sum1);
+}
+    </code>
 </article>
