@@ -25,7 +25,7 @@
         <text>test <italic>test</italic> <bold>text</bold> test</text>
         <tex>\frac{a^{25}}{a^{16}} = a^{25 - 16} = a^9</tex>
     </colored>
-    <code lang="c++" src="main.cpp">
+    <code lang="cpp" src="main.cpp">
 #include &lt;iostream&gt;
 #include &lt;cstring&gt;
 #include &lt;vector&gt;
