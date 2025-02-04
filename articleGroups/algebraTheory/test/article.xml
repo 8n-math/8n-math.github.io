@@ -121,20 +121,20 @@ signed main() {
 }
     </code>
     <gallery>
-        <img src="https://primefaces.org/cdn/primevue/images/galleria/galleria1.jpg" thumb="https://primefaces.org/cdn/primevue/images/galleria/galleria1s.jpg" alt=""/>
-        <img src="https://primefaces.org/cdn/primevue/images/galleria/galleria2.jpg" thumb="https://primefaces.org/cdn/primevue/images/galleria/galleria2s.jpg" alt=""/>
-        <img src="https://primefaces.org/cdn/primevue/images/galleria/galleria3.jpg" thumb="https://primefaces.org/cdn/primevue/images/galleria/galleria3s.jpg" alt=""/>
-        <img src="https://primefaces.org/cdn/primevue/images/galleria/galleria4.jpg" thumb="https://primefaces.org/cdn/primevue/images/galleria/galleria4s.jpg" alt=""/>
-        <img src="https://primefaces.org/cdn/primevue/images/galleria/galleria5.jpg" thumb="https://primefaces.org/cdn/primevue/images/galleria/galleria5s.jpg" alt=""/>
-        <img src="https://primefaces.org/cdn/primevue/images/galleria/galleria6.jpg" thumb="https://primefaces.org/cdn/primevue/images/galleria/galleria6s.jpg" alt=""/>
-        <img src="https://primefaces.org/cdn/primevue/images/galleria/galleria7.jpg" thumb="https://primefaces.org/cdn/primevue/images/galleria/galleria7s.jpg" alt=""/>
-        <img src="https://primefaces.org/cdn/primevue/images/galleria/galleria8.jpg" thumb="https://primefaces.org/cdn/primevue/images/galleria/galleria8s.jpg" alt=""/>
-        <img src="https://primefaces.org/cdn/primevue/images/galleria/galleria9.jpg" thumb="https://primefaces.org/cdn/primevue/images/galleria/galleria9s.jpg" alt=""/>
-        <img src="https://primefaces.org/cdn/primevue/images/galleria/galleria10.jpg" thumb="https://primefaces.org/cdn/primevue/images/galleria/galleria10s.jpg" alt=""/>
-        <img src="https://primefaces.org/cdn/primevue/images/galleria/galleria11.jpg" thumb="https://primefaces.org/cdn/primevue/images/galleria/galleria11s.jpg" alt=""/>
-        <img src="https://primefaces.org/cdn/primevue/images/galleria/galleria12.jpg" thumb="https://primefaces.org/cdn/primevue/images/galleria/galleria12s.jpg" alt=""/>
-        <img src="https://primefaces.org/cdn/primevue/images/galleria/galleria13.jpg" thumb="https://primefaces.org/cdn/primevue/images/galleria/galleria13s.jpg" alt=""/>
-        <img src="https://primefaces.org/cdn/primevue/images/galleria/galleria14.jpg" thumb="https://primefaces.org/cdn/primevue/images/galleria/galleria14s.jpg" alt=""/>
-        <img src="https://primefaces.org/cdn/primevue/images/galleria/galleria15.jpg" thumb="https://primefaces.org/cdn/primevue/images/galleria/galleria15s.jpg" alt=""/>
+        <img src="https://primefaces.org/cdn/primevue/images/galleria/galleria1.jpg" thumb="https://primefaces.org/cdn/primevue/images/galleria/galleria1s.jpg"/>
+        <img src="https://primefaces.org/cdn/primevue/images/galleria/galleria2.jpg" thumb="https://primefaces.org/cdn/primevue/images/galleria/galleria2s.jpg"/>
+        <img src="https://primefaces.org/cdn/primevue/images/galleria/galleria3.jpg" thumb="https://primefaces.org/cdn/primevue/images/galleria/galleria3s.jpg"/>
+        <img src="https://primefaces.org/cdn/primevue/images/galleria/galleria4.jpg" thumb="https://primefaces.org/cdn/primevue/images/galleria/galleria4s.jpg"/>
+        <img src="https://primefaces.org/cdn/primevue/images/galleria/galleria5.jpg" thumb="https://primefaces.org/cdn/primevue/images/galleria/galleria5s.jpg"/>
+        <img src="https://primefaces.org/cdn/primevue/images/galleria/galleria6.jpg" thumb="https://primefaces.org/cdn/primevue/images/galleria/galleria6s.jpg"/>
+        <img src="https://primefaces.org/cdn/primevue/images/galleria/galleria7.jpg" thumb="https://primefaces.org/cdn/primevue/images/galleria/galleria7s.jpg"/>
+        <img src="https://primefaces.org/cdn/primevue/images/galleria/galleria8.jpg" thumb="https://primefaces.org/cdn/primevue/images/galleria/galleria8s.jpg"/>
+        <img src="https://primefaces.org/cdn/primevue/images/galleria/galleria9.jpg" thumb="https://primefaces.org/cdn/primevue/images/galleria/galleria9s.jpg"/>
+        <img src="https://primefaces.org/cdn/primevue/images/galleria/galleria10.jpg" thumb="https://primefaces.org/cdn/primevue/images/galleria/galleria10s.jpg"/>
+        <img src="https://primefaces.org/cdn/primevue/images/galleria/galleria11.jpg" thumb="https://primefaces.org/cdn/primevue/images/galleria/galleria11s.jpg"/>
+        <img src="https://primefaces.org/cdn/primevue/images/galleria/galleria12.jpg" thumb="https://primefaces.org/cdn/primevue/images/galleria/galleria12s.jpg"/>
+        <img src="https://primefaces.org/cdn/primevue/images/galleria/galleria13.jpg" thumb="https://primefaces.org/cdn/primevue/images/galleria/galleria13s.jpg"/>
+        <img src="https://primefaces.org/cdn/primevue/images/galleria/galleria14.jpg" thumb="https://primefaces.org/cdn/primevue/images/galleria/galleria14s.jpg"/>
+        <img src="https://primefaces.org/cdn/primevue/images/galleria/galleria15.jpg" thumb="https://primefaces.org/cdn/primevue/images/galleria/galleria15s.jpg"/>
     </gallery>
 </article>
