@@ -137,4 +137,5 @@ signed main() {
         <img src="https://primefaces.org/cdn/primevue/images/galleria/galleria14.jpg" thumb="https://primefaces.org/cdn/primevue/images/galleria/galleria14s.jpg"/>
         <img src="https://primefaces.org/cdn/primevue/images/galleria/galleria15.jpg" thumb="https://primefaces.org/cdn/primevue/images/galleria/galleria15s.jpg"/>
     </gallery>
+    <img src="https://primefaces.org/cdn/primevue/images/galleria/galleria7.jpg" thumb="https://primefaces.org/cdn/primevue/images/galleria/galleria7s.jpg"/>
 </article>
