@@ -2,7 +2,7 @@
 <article title="test">
     test
     <text>
-        test <i>test</i> <b>text</b> test <tex>\cfrac{a^{25}}{a^{16}}</tex> <code>test</code> test
+        test <i>test</i> <b>text <tex>\cfrac{a^{25}}{a^{16}}</tex></b> test <tex>\cfrac{a^{25}}{a^{16}}</tex> <code>test</code> test
     </text>
     <tex>
         \frac{a^{25}}{a^{16}} = a^{25 - 16} = a^9
