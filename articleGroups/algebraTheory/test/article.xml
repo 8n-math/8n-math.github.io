@@ -2,30 +2,30 @@
 <article title="test">
     test
     <text>
-        test <italic>test</italic> <bold>text</bold> test <tex>\cfrac{a^{25}}{a^{16}}</tex> <code>test</code> test <math>a^(25)/a^(16)*(a^(10))+10</math> test
+        test <i>test</i> <b>text</b> test <tex>\cfrac{a^{25}}{a^{16}}</tex> <code>test</code> test
     </text>
     <tex>
         \frac{a^{25}}{a^{16}} = a^{25 - 16} = a^9
     </tex>
     <tabs>
         <tab name="000000000000000">
-            <text>test <italic>test</italic> <bold>text</bold> test</text>
+            <text>test <i>test</i> <b>text</b> test</text>
             <tex>\frac{a^{25}}{a^{16}} = a^{25 - 16} = a^9</tex>
         </tab>
         <tab name="1">
             <tex>\frac{a^{25}}{a^{16}} = a^{25 - 16} = a^9</tex>
-            <text>test <italic>test</italic> <bold>text</bold> test</text>
+            <text>test <i>test</i> <b>text</b> test</text>
         </tab>
     </tabs>
     <spoiler title="test">
-        <text>test <italic>test</italic> <bold>text</bold> test</text>
+        <text>test <i>test</i> <b>text</b> test</text>
         <tex>\frac{a^{25}}{a^{16}} = a^{25 - 16} = a^9</tex>
     </spoiler>
     <colored color="green">
-        <text>test <italic>test</italic> <bold>text</bold> test</text>
+        <text>test <i>test</i> <b>text</b> test</text>
         <tex>\frac{a^{25}}{a^{16}} = a^{25 - 16} = a^9</tex>
     </colored>
-    <code lang="cpp" src="main.cpp">
+    <code lang="cpp">
 #include &lt;iostream&gt;
 #include &lt;cstring&gt;
 #include &lt;vector&gt;
